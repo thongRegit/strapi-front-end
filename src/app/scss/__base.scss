@@ -1,0 +1,134 @@
+:root {
+    --blue: #007bff;
+    --white: #ffffff;
+    --yellow: #d88e00;
+    --rt-c-main-yellow: #fffee6;
+    --white-gray: #fefefe;
+    --white-gray-v2: #cdd4e7;
+    --white-gray-v3: #e8ecf8;
+    --rt-c-main-white: #fff;
+    --rt-c-main-white-v2: #f0f0f0;
+    --rt-c-main-white-v3: #f4f7ff;
+    --rt-c-main-white-v4: #e6ebf1;
+    --rt-c-main-white-v5: #fcf4f4;
+    --rt-c-main-blue: #020948;
+    --rt-c-main-blue-v2: #0086ff;
+    --rt-c-main-blue-v3: #72b0f2;
+    --rt-c-main-blue-v4: #007bff;
+    --rt-c-main-light: #6659ff;
+    --rt-c-main-bg: #eff1f7;
+    --rt-c-main-black: #051121;
+    --rt-c-main-black-v2: #5f5f5f;
+    --rt-c-main-black-v3: #626262;
+    --rt-c-main-clear: #e6e8ef;
+    --rt-c-main-search: #4335ef;
+    --rt-c-main-red: red;
+    --rt-c-main-red-v2: #ff0000;
+    --rt-c-main-gray: #727171;
+    --rt-c-main-gray-v2: #595959;
+    --rt-c-main-gray-v3: #e1dddd;
+    --rt-c-main-gray-v4: #707070;
+    --rt-c-main-gray-v5: #676767;
+    --rt-c-main-gray-v6: #acacac;
+    --rt-c-main-gray-v7: #edeff4;
+    --rt-c-main-gray-v8: #e8ecf8;
+    --rt-c-main-gray-v9: #babac0;
+    --rt-c-main-gray-v10: #8b8f9e;
+    --rt-c-main-bg-green: rgba(38, 183, 188, 0.1);
+    --rt-c-main-green: #26b7bc;
+    --rt-c-main-green-v2: #31af91;
+    --rt-c-main-green-v3: #edf4f0;
+    --rt-c-main-purple: #020948;
+    --rt-c-main-purple-blue: #6659ff;
+    --rt-c-main-btn-primary: #4335ef;
+    --rt-c-main-layout-bg: #f4f7fc;
+    --rt-c-main-currency-btn: #5b5f64;
+    --color-background: #fff;
+
+    --rt-c-main-link-color: #0058ff;
+    --rt-c-main-remove-icon: #999;
+    --rt-c-main-segment-group-bg: #cdd2e1;
+
+    --rt-c-hover-remove-icon: #777;
+    --customer-title-color: #171725;
+    --customer-sub-title-color: #212529;
+
+    --sidebar-normal-text-color: #7e83ad;
+
+    --red: #cf352c;
+    --dark-red: #9c0502;
+    --light-beige: #f3f2ee;
+    --beige: #eee8e0;
+    --dark-beige: #dad2c9;
+    --black: #1d2528;
+    --gray: #38434a;
+    --lighter-gray: #49555b;
+    --white: #fff;
+    --bouncer-skin: #ffb482;
+    --pole: #f5ae4e;
+    --pole-shadow: #df9d41;
+    --header-top: #368e7d;
+    --header-service: #263238;
+
+    //border-animation
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    --c1: var(--rt-c-main-green);
+    --c2: var(--rt-c-main-btn-primary);
+
+    // custom
+    --quote-background: #202e33;
+    --quote-background-2: #586266;
+    --content-customer: #bbbaba;
+    --about-image: #274b49;
+    --about-left: #4a998a;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 90deg;
+    inherits: true;
+}
+
+@property --gradX {
+    syntax: "<percentage>";
+    initial-value: 50%;
+    inherits: true;
+}
+
+@property --gradY {
+    syntax: "<percentage>";
+    initial-value: 0%;
+    inherits: true;
+}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+JP&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+html,
+body {
+    font-family: "Noto Serif JP";
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}

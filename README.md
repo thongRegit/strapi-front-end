@@ -1,1 +1,0 @@
-# strapi-front-end
